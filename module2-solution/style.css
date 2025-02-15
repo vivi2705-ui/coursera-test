@@ -1,1 +1,80 @@
-f
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px; text-align: center;
+}
+section{
+  position: relative;
+}
+#title1{
+  background-color:pink ;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  top: 8%;
+  left: 82.2%;
+}
+#title2{
+  background-color: darkred ;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  top: 8%;
+  left: 86.7%;
+  color:  white;
+}
+#title3{
+  background-color:lightyellow ;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  top: 8%;
+  left: 85.5%;
+}
+
+p{
+  background-color: grey;
+  border: 1px solid black;
+  width: 90%;
+  height: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  padding: 15px;
+  padding-top: 50px;
+}
+
+
+/*Computer*/
+@media (min-width: 992px) {
+   .col-lg-4{
+    float: left;
+    width: 33.33%;
+   } 
+
+
+}
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,  .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+
+ } 
+
+ /*Mobile*/
+@media (max-width: 767px) {
+    .col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
