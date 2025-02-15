@@ -68,9 +68,6 @@ p{
   .col-md-12 {
     width: 100%;
   }
-  #title1{
-left: 90%;
- } 
 
  /*Mobile*/
 @media (max-width: 767px) {
